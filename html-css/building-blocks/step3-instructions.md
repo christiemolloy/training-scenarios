@@ -1,12 +1,10 @@
-In PatternFly, layouts allow for organizing and grouping elements. There are seven different layouts in PatternFly, but in this module we will cover just one. You can explore our other module which does a deep dive into layouts.
-
-## Workshop: Practice using layout classes
+In PatternFly, layouts allow for organizing and grouping elements. There are seven different layouts in PatternFly, but in this module we will cover just one. You can explore our "layout" module which does a deep dive into layouts.
 
 Let's add a bullseye layout class to the html markup to demonstrate the power of using PatternFly's layout classes.
 
-1) <strong>Copy code into the index.html file.</strong>
+1) <strong>Copy code into the `index.html` file.</strong>
 
-Click the <strong>Copy to Editor</strong> button below to add html for a card component to the `index.html` file.
+Click the `Copy to Editor` button below to add html for a card component to the `index.html` file.
 
 <pre class="file" data-filename="index.html" data-target="replace">
 &lt;div&gt;
@@ -24,7 +22,9 @@ Click the <strong>Copy to Editor</strong> button below to add html for a card co
 &lt;/div&gt;
 </pre>
 
-2) <strong>Add the bullseye class to the card so that the card is centered horizontally and vertically on the page.</strong>
+2) <strong>Add the bullseye layout class to the card.</strong>
+
+This will position the card to be centered horizontally and vertically on the page.
 
 Find the outer `<div>` wrapper on Line 1 and add the class `pf-l-bullseye`.
 

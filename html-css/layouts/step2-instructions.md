@@ -1,10 +1,10 @@
-The Level Layout is designed to distribute space between children evenly and center them on the x-axis. By default the children are placed horizontally and wrap responsively.
+The level layout is designed to distribute space between children evenly and center them on the x-axis. By default the children are placed horizontally and wrap responsively.
 
-## Task: Layout title and button horizontally.
+In this step, we will layout a title and button on the horizontal axis.
 
-1) <strong>Copy code into the index.html file.</strong>
+1) <strong>Copy code into the `index.html` file.</strong>
 
-Click the <strong>Copy to Editor</strong> button below to add a Card component in the `index.html` file.
+Click the `Copy to Editor` button below to add a card with a title and button component to the `index.html` file.
 
 <pre class="file" data-filename="index.html" data-target="replace">
 &lt;div class=&quot;pf-c-card&quot;&gt;
@@ -19,7 +19,9 @@ Click the <strong>Copy to Editor</strong> button below to add a Card component i
 &lt;/div&gt;
 </pre>
 
-2) Add `pf-l-level` to the parent `<div>` of the title and button elements. 
+2) <strong>Add the level layout class to the card container.</strong>
+
+Add `pf-l-level` to the parent container of the title and button elements. 
 
 <strong>Hint: </strong>Add it to `pf-c-card__body`.
 

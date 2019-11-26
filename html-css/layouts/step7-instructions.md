@@ -1,10 +1,10 @@
-The Flex Layout is based on the CSS Flex properties where the layout determines how a flex item will grow or shrink to fit the space available in its container. The system relies on a default spacer value that is applied to flex items.
+The flex layout is based on the CSS flex properties where the layout determines how a flex item will grow or shrink to fit the space available in its container. The system relies on a default spacer value that is applied to flex items.
 
-## Task: Layout items in a card using flex.
+In this step we will layout items in a card using flex.
 
-1) <strong>Copy code into the index.html file.</strong>
+1) <strong>Copy code into the `index.html` file.</strong>
 
-Click the <strong>Copy to Editor</strong> button below to add code in the `index.html` file.
+Click the `Copy to Editor` button below to add code in the `index.html` file.
 
 <pre class="file" data-filename="index.html" data-target="replace">
 &lt;div class=&quot;pf-c-card&quot; style=&quot;width: 450px&quot;&gt; 
@@ -31,16 +31,26 @@ Click the <strong>Copy to Editor</strong> button below to add code in the `index
 &lt;/div&gt;
 </pre>
 
-Lets make the first card body layout horizontally. For `pf-c-card__body`:
+2) <strong>Change the card body to lay out horizontally.</strong>
 
-2) Set its layout to be flex. Add `pf-l-flex` to the `pf-c-card__body`.
+a) <strong>Set the layout of the card body to use flex.</strong>
 
-3) Set its direction to be row. Add `pf-m-row` to the `pf-c-card__body`.
+Add `pf-l-flex` to `pf-c-card__body`.
 
-4) Add space between the text and the button, this can be done using the modifier: `pf-m-justify-content-space-between`.
+b) <strong>Set the direction of the card body to use row.</strong>
+  
+Add `pf-m-row` to `pf-c-card__body`.
 
-Lets make the card footer layout the buttons. For `pf-c-card__footer`:
+c) <strong>Add space between the text and the button.</strong> 
 
-5) Set its layout to be flex. Add `pf-l-flex` to the `pf-c-card__footer`.
+This can be done by using the modifier `pf-m-justify-content-space-between`.
 
-6) Add space between the buttons. Add `pf-m-justify-content-space-between` to the `pf-c-card__footer`.
+3) <strong>Change the card footer to lay out the buttons.</strong>
+
+a) <strong>Set the layout of the card footer to be flex.</strong>
+
+Add `pf-l-flex` to the `pf-c-card__footer`.
+
+b) <strong>Add space between the buttons.</strong>
+
+Add `pf-m-justify-content-space-between` to the `pf-c-card__footer`.

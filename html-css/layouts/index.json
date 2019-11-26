@@ -11,37 +11,37 @@
     },
     "steps": [
       {
-        "title": "Bullseye Layout",
+        "title": "Bullseye layout",
         "text": "step1-instructions.md",
         "answer": "step1-answer.md"
       },
       {
-        "title": "Level Layout",
+        "title": "Level layout",
         "text": "step2-instructions.md",
         "answer": "step2-answer.md"
       },
       {
-        "title": "Split Layout",
+        "title": "Split layout",
         "text": "step3-instructions.md",
         "answer": "step3-answer.md"
       },
       {
-        "title": "Stack Layout",
+        "title": "Stack layout",
         "text": "step4-instructions.md",
         "answer": "step4-answer.md"
       },
       {
-        "title": "Gallery Layout",
+        "title": "Gallery layout",
         "text": "step5-instructions.md",
         "answer": "step5-answer.md"
       },
       {
-        "title": "Grid Layout",
+        "title": "Grid layout",
         "text": "step6-instructions.md",
         "answer": "step6-answer.md"
       },
       {
-        "title": "Flex Layout",
+        "title": "Flex layout",
         "text": "step7-instructions.md",
         "answer": "step7-answer.md"
       }

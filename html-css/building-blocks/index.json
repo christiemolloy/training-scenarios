@@ -11,12 +11,12 @@
     },
     "steps": [
       {
-        "title": "Simple PatternFly components",
+        "title": "Basic component",
         "text": "step1-instructions.md",
         "answer": "step1-answer.md"
       },
       {
-        "title": "Complex PatternFly components",
+        "title": "Nested components",
         "text": "step2-instructions.md",
         "answer": "step2-answer.md"
       },

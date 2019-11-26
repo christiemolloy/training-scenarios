@@ -22,12 +22,18 @@ Click the <strong>Copy to Editor</strong> button below to add a Card component i
 &lt;/div&gt;
 </pre>
 
-2) Add `pf-l-stack` to the parent container.
+2) <strong>Add the stack layout class to the parent container.</strong>
 
-<strong>Hint: </strong>`pf-c-card__body`
+Add `pf-l-stack` to `pf-c-card__body`.
 
-3) Add `pf-l-stack__item` to all of the children inside of the container. 
+<strong>Hint: </strong>`<div class="pf-c-card__body pf-l-stack">`
 
-<strong>Hint: </strong>`pf-c-title` , `<div>` , `pf-c-button`.
+3) <strong>Add `pf-l-stack__item` to all of the children inside of the container.</strong>
 
-4) To the middle `<div>` add the class `pf-m-fill` next to the `pf-l-stack__item` class that is already there. This will allow that div to fill the available vertical space.
+This includes adding the `pf-l-stack__item` class to the `<h1 class="pf-c-title">` , `<div>`  and `<button class="pf-c-button">` containers.
+
+4) <strong>Add a class to make the middle child fill the available space.</strong>
+
+To the middle `<div>` add the class `pf-m-fill` next to the `pf-l-stack__item` class that is already there. This will allow that div to fill the available vertical space.
+
+<strong>Hint: </strong>`<div class="pf-l-stack__item pf-m-fill">`

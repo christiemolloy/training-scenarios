@@ -23,18 +23,6 @@ Click the <strong>Copy to Editor</strong> button below to add code in the `index
         &lt;input class=&quot;pf-c-form-control&quot; placeholder=&quot;555-555-5555&quot;&gt;
       &lt;/div&gt;
       &lt;div class=&quot;pf-c-form__group&quot;&gt;
-        &lt;label class=&quot;pf-c-form__label&quot;&gt;Street Address&lt;/label&gt;
-        &lt;input class=&quot;pf-c-form-control&quot; placeholder=&quot;123 A Street&quot;&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;pf-c-form__group&quot;&gt;
-        &lt;label class=&quot;pf-c-form__label&quot;&gt;State&lt;/label&gt;
-        &lt;input class=&quot;pf-c-form-control&quot; placeholder=&quot;MA&quot;&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;pf-c-form__group&quot;&gt;
-        &lt;label class=&quot;pf-c-form__label&quot;&gt;Zip Code&lt;/label&gt;
-        &lt;input class=&quot;pf-c-form-control&quot; placeholder=&quot;12345&quot;&gt;
-      &lt;/div&gt;
-        &lt;div class=&quot;pf-c-form__group&quot;&gt;
         &lt;label class=&quot;pf-c-form__label&quot;&gt;Country&lt;/label&gt;
         &lt;input class=&quot;pf-c-form-control&quot; placeholder=&quot;United States&quot;&gt;
       &lt;/div&gt;
@@ -43,8 +31,16 @@ Click the <strong>Copy to Editor</strong> button below to add code in the `index
 &lt;/div&gt;
 </pre>
 
-2) Add `pf-l-grid` next to the `pf-c-form` class.
+2) <strong>Add `pf-l-grid` next to the `pf-c-form` class.</strong>
 
-3) For every `pf-c-form__group` class add `pf-l-grid__item` next to it so that it becomes a grid item.
+<strong>Hint:</strong> `<div class="pf-c-form pf-l-grid">`
 
-4) Change the widths of `pf-l-grid__item`. To the first two Form Groups add `pf-m-6-col` next to `pf-l-grid__item`. For the last three Form Groups add `pf-m-4-col` next to `pf-l-grid__item`.
+3) <strong>Add grid items to the `pf-c-form__group` classes.</strong>
+
+For every `pf-c-form__group` class add `pf-l-grid__item` next to it so that it becomes a grid item.
+
+4) <strong>Change the widths of the grid items.</strong>
+
+To change the widths of `pf-l-grid__item` add a modifier class next to the classes. For example add `pf-m-6-col`.
+
+<strong>Hint:</strong> `<div class="pf-l-grid__item pf-m-6-col">`
