@@ -1,7 +1,7 @@
 BEM stands for Block Element and Modifier, where, Block maps to the component, element is the elements within the component and modifiers are tied to the elements in the block.
 
-Let's look at how component variables are named:
-Similarly, component-level custom properties follow this general formula `--pf-c-block[__element][--modifier][--state][--breakpoint][--pseudo-element]--PropertyCamelCase.`
+In PatternFly, component-level custom properties follow the general formula: 
+`--pf-c-block[__element][--modifier][--state][--breakpoint][--pseudo-element]--PropertyCamelCase.`
 
 * `--pf-c-block` refers to the block, usually the component or layout name (i.e., --pf-c-alert).
 * `__element` refers to the element inside of the block (i.e., __title).
